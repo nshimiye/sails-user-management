@@ -2,7 +2,7 @@
 @Author: mars
 @Date:   2016-12-06T14:16:02-05:00
 @Last modified by:   mars
-@Last modified time: 2016-12-06T17:30:24-05:00
+@Last modified time: 2016-12-06T17:58:34-05:00
 -->
 # sails-user-management
 Signup with external services -  sailsjs app
@@ -17,6 +17,7 @@ Signup with Gmail, then use the email as a username.
 
 * Create a new app
 ```
+sails new sails-user-management --no-frontend
 ```
 
 * Install authentication and authorization dependancies
@@ -55,13 +56,13 @@ passportSession: require('passport').session(),
 
 ```
 
-* Configure policy settings
+* Configure [policy settings](https://github.com/nshimiye/sails-user-management/blob/master/config/policies.js#L29)
 ```javascript
 // create a new file => config/policies.js
 
 ```
 
-* Configure CORS settings
+* Configure [CORS settings](https://github.com/nshimiye/sails-user-management/blob/master/config/cors.js#L38)
 ```javascript
 // create a new file => config/cors.js
 ...
@@ -120,19 +121,20 @@ module.exports = function (req, res, next) {
 
 <!-- SERVICES -->
 
-* Create API service
+* Create [API service](https://github.com/nshimiye/sails-user-management/blob/master/api/services/API.js#L122)
 ```javascript
 // api/services/API.js
 // @TODO what does API service do
 ```
 
-* Create OAuth service
+
+* Create [OAuth service](https://github.com/nshimiye/sails-user-management/blob/master/api/services/OAuth.js#L120)
 ```javascript
 // api/services/OAuth.js
 // @TODO what does OAuth service do
 ```
 
-* Create Registration service
+* Create [Registration service](https://github.com/nshimiye/sails-user-management/blob/master/api/services/Registration.js#L63)
 ```javascript
 // api/services/Registration.js
 // @TODO what does Registration service do

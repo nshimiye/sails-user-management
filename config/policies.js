@@ -2,7 +2,7 @@
 * @Author: mars
 * @Date:   2016-12-06T14:16:02-05:00
 * @Last modified by:   mars
-* @Last modified time: 2016-12-06T14:51:06-05:00
+* @Last modified time: 2016-12-06T18:01:07-05:00
 */
 
 
@@ -37,6 +37,11 @@ module.exports.policies = {
 
   // '*': true,
   '*': 'OAuthValidateAccessToken',
+
+  // make this one public i.e. anyone can access index handlers
+  IndexController: {
+      '*' :  true
+  },
 
   /***************************************************************************
   *                                                                          *

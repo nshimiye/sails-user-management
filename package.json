@@ -1,9 +1,9 @@
 {
   "name": "sails-user-management",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "a Sails application",
-  "keywords": [],
+  "keywords": ["sailsjs", "passport", "oauth2", "nodemailer", "gmail"],
   "dependencies": {
     "bcrypt": "^1.0.0",
     "bluebird": "^3.4.6",
