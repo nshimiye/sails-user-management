@@ -1,0 +1,32 @@
+{
+  "name": "sails-user-management",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "bcrypt": "^1.0.0",
+    "bluebird": "^3.4.6",
+    "include-all": "^1.0.0",
+    "nodemailer": "^2.6.4",
+    "oauth2orize": "^1.5.1",
+    "passport": "^0.3.2",
+    "passport-http-bearer": "^1.0.1",
+    "passport-oauth2-public-client": "^0.1.0",
+    "rand-token": "^0.2.1",
+    "rc": "1.0.1",
+    "sails": "~0.12.11",
+    "sails-disk": "~0.10.9"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mars/sails-user-management.git"
+  },
+  "author": "mars",
+  "license": ""
+}
