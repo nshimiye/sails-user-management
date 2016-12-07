@@ -1,10 +1,10 @@
 /*jshint camelcase: false*/
 /**
-* source: https://github.com/nshimiye/OAUTH-Server-with-Sails-and-AngularJS/blob/master/OAUTH_README.md
+* source: @TODO
 * @Author: mars
 * @Date:   2016-12-06T15:39:25-05:00
 * @Last modified by:   mars
-* @Last modified time: 2016-12-06T18:16:06-05:00
+* @Last modified time: 2016-12-06T18:49:10-05:00
 */
 'use strict';
 
@@ -13,7 +13,6 @@ var Promise = require('bluebird'),
     mailer = require('nodemailer'),
     emailGeneratedCode,
     transporter;
-
 
 transporter = mailer.createTransport({
     service: 'gmail',
@@ -26,7 +25,6 @@ transporter = mailer.createTransport({
 emailGeneratedCode = function (options) {
     let url = options.verifyURL,
         email = options.email;
-
 
     let message = 'Hello!';
     message += '<br/>';

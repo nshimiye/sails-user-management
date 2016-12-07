@@ -1,9 +1,10 @@
 /*jshint camelcase: false*/
 /**
+* source: https://github.com/nshimiye/OAUTH-Server-with-Sails-and-AngularJS/blob/master/OAUTH_README.md
 * @Author: mars
 * @Date:   2016-12-06T15:36:07-05:00
 * @Last modified by:   mars
-* @Last modified time: 2016-12-06T15:44:33-05:00
+* @Last modified time: 2016-12-06T18:08:28-05:00
 */
 'use strict';
 

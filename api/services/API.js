@@ -1,8 +1,9 @@
 /**
+* source: https://github.com/nshimiye/OAUTH-Server-with-Sails-and-AngularJS/blob/master/OAUTH_README.md
 * @Author: mars
 * @Date:   2016-12-06T15:33:27-05:00
 * @Last modified by:   mars
-* @Last modified time: 2016-12-06T15:35:38-05:00
+* @Last modified time: 2016-12-06T18:08:40-05:00
 */
 'use strict';
 

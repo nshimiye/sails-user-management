@@ -9,7 +9,8 @@
     "UtilityService",
     "API",
     "OAuth",
-    "Registration"
+    "Registration",
+    "ExternalServerRegistration"
   ],
   "node": true,
   "esnext": true,
